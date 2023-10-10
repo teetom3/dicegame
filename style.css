@@ -1,0 +1,88 @@
+body {
+    height: 100%;
+    width:100%;
+    font-family: Lato , sans-serif;
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,84,253,1) 100%);
+
+}
+
+/* Style pour la section principale */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20%;
+    background: linear-gradient(0deg, rgba(249,249,249,0.05) 0%, rgba(233,233,233,1) 100%);
+    
+    
+  }
+  
+  /* Style pour chaque section joueur */
+  .player {
+    flex: 1; /* Chaque section prendra autant d'espace que possible */
+    text-align: center; /* Centre le contenu horizontalement */
+    padding: 20px; /* Ajoute de l'espace autour des éléments */
+ 
+  }
+  .hidden {
+    
+    visibility : hidden;
+}
+  .dice {
+    height: 50px;
+    width: auto;
+    padding: 20px;
+    
+   
+
+  }
+
+  .bnt_img{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+ .current {
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+ }
+ 
+ .btn{
+    padding-top: 8;
+ }
+
+ .current_score {
+    color: white;
+ }
+  
+  button {
+    border-radius: 20px;
+    margin-top: 8px;
+  }
+  button:hover{
+    background-color: blue;
+    color: white;
+  }
+
+  button:active {
+    transform: translate(2px, 2px); /* Décale le bouton de 2 pixels vers la droite et le bas */
+  }
+
+.player_active {
+  background-color: rgb(173, 237, 237);
+}
+
+.player_unactive {
+  background-color: none;
+}
+  
+ 
+
+
+.victory {
+  background-color: crimson;
+  transition: 2s;
+}
