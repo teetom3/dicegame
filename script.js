@@ -38,7 +38,7 @@ diceEl.classList.add('hidden');
 player0El.classList.remove('victory');
 player1El.classList.remove('victory');
 player0El.classList.add('player_active');
-
+player1El.classList.remove('player_active');
 }
 
 //set le score à 0 et cache le dé
